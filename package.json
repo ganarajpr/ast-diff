@@ -1,0 +1,22 @@
+{
+  "name": "ast-diff",
+  "version": "0.1.0",
+  "description": "An AST diffing algorithm implementation based on the gumtree algorithm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ast",
+    "diff",
+    "esprima",
+    "acorn"
+  ],
+  "author": "Ganaraj P R",
+  "license": "MIT",
+  "dependencies": {
+    "ast-types": "^0.6.1",
+    "filestoast": "^0.1.0",
+    "lodash": "^2.4.1"
+  }
+}
