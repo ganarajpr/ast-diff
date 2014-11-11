@@ -3,7 +3,8 @@
  */
 
 var nodeheight = require('./lib/nodeheight');
+var Matcher = require('./lib/TopDownMatcher');
 
 module.exports = function(src,dest){
-    nodeheight.getHeight(src);
+    Matcher.match(src,dest);
 };
